@@ -54,7 +54,7 @@ word= {
 }
 dash="___________"
 count = 0
-guess=input("guess a letter")
+guess=input("GUESS A LETTER")
 while count < 6:
     if guess[word] == ["-1"]:
                count = count+1
@@ -64,6 +64,8 @@ while count < 6:
                dash = dash[:i-1] + guess + dash[i:]
         print (dash)
     guess= input("guess a letter")
+    
+  
 
 
 
